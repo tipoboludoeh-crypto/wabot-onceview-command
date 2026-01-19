@@ -2,7 +2,7 @@
 
 **CONFIGURACIÓN RÁPIDA:**
 1. Clona el repo
-2. En `config.json` pon tu número en "OWNER" y "REPLUDETECTOR"
+2. En `config.json` pon tu número en "OWNER"
 3. Ejecuta `npm install`
 4. Inicia con `npm start`
 5. Para parar: `Ctrl + C`
