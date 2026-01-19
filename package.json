@@ -1,0 +1,25 @@
+{
+  "name": "onceview-fantasma",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp fantasma - solo consola",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "clean": "rm -rf session"
+  },
+  "keywords": ["whatsapp", "bot", "fantasma"],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "pino": "^9.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
